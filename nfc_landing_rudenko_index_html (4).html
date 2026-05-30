@@ -1,0 +1,220 @@
+<!doctype html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Золотое украшение из Клермесских курганов</title>
+  <meta name="description" content="Сведения об источнике мотива 3D-модели" />
+  <style>
+    :root {
+      --bg: #f4efe5;
+      --paper: #fffaf0;
+      --text: #202020;
+      --muted: #6f675b;
+      --line: #ded2bf;
+      --accent: #9c772e;
+      --accent-soft: #efe3ca;
+    }
+
+    * { box-sizing: border-box; }
+
+    body {
+      margin: 0;
+      min-height: 100vh;
+      color: var(--text);
+      background: var(--bg);
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Arial, sans-serif;
+      line-height: 1.55;
+    }
+
+    .page {
+      width: min(760px, calc(100% - 32px));
+      margin: 0 auto;
+      padding: 48px 0 28px;
+    }
+
+    .label {
+      background: var(--paper);
+      border: 1px solid var(--line);
+      border-radius: 18px;
+      padding: clamp(24px, 6vw, 44px);
+      box-shadow: 0 18px 42px rgba(44, 35, 20, 0.08);
+    }
+
+    .topline {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      gap: 16px;
+      margin-bottom: 40px;
+      color: var(--muted);
+      font-size: 14px;
+    }
+
+    .mark {
+      width: 34px;
+      height: 2px;
+      background: var(--accent);
+      flex: 0 0 auto;
+    }
+
+    h1 {
+      margin: 0;
+      max-width: 640px;
+      font-size: clamp(34px, 7vw, 58px);
+      font-weight: 520;
+      line-height: 1.03;
+      letter-spacing: -0.045em;
+    }
+
+    .lead {
+      margin: 22px 0 0;
+      max-width: 560px;
+      color: var(--muted);
+      font-size: clamp(17px, 2.7vw, 20px);
+    }
+
+    .info {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1px;
+      margin-top: 36px;
+      overflow: hidden;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--line);
+    }
+
+    .item {
+      min-height: 92px;
+      padding: 18px;
+      background: rgba(255, 250, 240, 0.92);
+    }
+
+    .item span {
+      display: block;
+      margin-bottom: 9px;
+      color: var(--accent);
+      font-size: 12px;
+      font-weight: 650;
+    }
+
+    .item strong {
+      display: block;
+      font-size: 17px;
+      font-weight: 520;
+    }
+
+    .comment {
+      margin: 34px 0 0;
+      padding: 18px 20px;
+      border-left: 3px solid var(--accent);
+      background: var(--accent-soft);
+      color: #4a4135;
+      font-size: 16px;
+    }
+
+    footer {
+      margin-top: 18px;
+      color: var(--muted);
+      font-size: 14px;
+      text-align: center;
+    }
+
+    footer strong {
+      color: var(--text);
+      font-weight: 550;
+    }
+
+    @media (max-width: 560px) {
+      .page {
+        width: min(100% - 22px, 460px);
+        padding: 18px 0 18px;
+      }
+
+      .label {
+        padding: 22px;
+        border-radius: 16px;
+      }
+
+      .topline {
+        margin-bottom: 28px;
+        font-size: 13px;
+      }
+
+      h1 {
+        font-size: clamp(32px, 11vw, 44px);
+        line-height: 1.06;
+      }
+
+      .lead {
+        margin-top: 18px;
+        font-size: 16px;
+      }
+
+      .info {
+        grid-template-columns: 1fr;
+        margin-top: 28px;
+      }
+
+      .item {
+        min-height: auto;
+        padding: 15px 16px;
+      }
+
+      .item strong {
+        font-size: 16px;
+      }
+
+      .comment {
+        margin-top: 26px;
+        padding: 15px 16px;
+        font-size: 14px;
+      }
+
+      footer {
+        text-align: left;
+        font-size: 12px;
+      }
+    }
+  </style>
+</head>
+<body>
+  <main class="page">
+    <section class="label" aria-labelledby="title">
+      <div class="topline">
+        <span>Сведения об источнике</span>
+        <span class="mark" aria-hidden="true"></span>
+      </div>
+
+      <h1 id="title">Золотое украшение из Клермесских курганов</h1>
+      <p class="lead">Этот образ стал основой для увеличенной 3D-модели — памятного предмета, выполненного по мотивам опубликованного археологического материала.</p>
+
+      <div class="info" aria-label="Сведения об источнике">
+        <div class="item">
+          <span>Объект</span>
+          <strong>Украшение</strong>
+        </div>
+        <div class="item">
+          <span>Датировка</span>
+          <strong>IV–V вв. до н. э.</strong>
+        </div>
+        <div class="item">
+          <span>Материал</span>
+          <strong>Золото</strong>
+        </div>
+        <div class="item">
+          <span>Публикация</span>
+          <strong>Галанина, 1997, табл. 4, кат. № 35</strong>
+        </div>
+      </div>
+
+      <p class="comment">Модель не является точной музейной копией. Это свободная 3D-интерпретация, созданная как личный знак благодарности.</p>
+    </section>
+
+    <footer>
+      <strong>К.А. Руденко</strong> — с благодарностью за научное руководство и поддержку в работе над кандидатской диссертацией. Владислав.
+    </footer>
+  </main>
+</body>
+</html>
